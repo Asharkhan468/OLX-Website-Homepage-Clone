@@ -1,0 +1,206 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+.btn-primary :hover{
+    color: #1864e2;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.nav-bg{
+    background-color: #f7f8f8;
+    max-width: 100%;
+}
+
+.top-bar{
+    padding: 10px;
+    width: 17rem;
+}
+
+.search-bar{
+    padding:9px;
+    width: 40rem;
+}
+
+.top-bar-item{
+    display: inline-block;
+    padding: 10px;
+}
+
+.fa-magnifying-glass{
+    background-color: #003035;
+    color: #ffff;
+    padding: 16px;
+    cursor: pointer;
+}
+
+.spacing{
+    letter-spacing: 10px;
+}
+
+.round{
+    border-radius: 3px;
+}
+
+.margin-l{
+    margin-right:10px;
+}
+
+.font{
+    font-size: 1.2rem;
+    color: #003035;
+    cursor: pointer;
+    text-decoration: underline;
+    
+}
+
+.responsive{
+    width: 11.11%;
+    
+}
+
+.sell-btn{
+  
+    background-color:transparent;
+    border-bottom:3px solid #00e9df;
+    border-top:4px solid #00e9df;
+    border-left:4px solid #ffcc2e;
+    border-right:4px solid #0079fe ;
+    border-radius: 20px;
+    padding: 10px;
+    width: 7rem;
+    margin-left: 20px;
+}
+
+.respo{
+    max-width: 100%;
+}
+
+@media(max-width:768px){
+    .login-btn{
+        display: none;
+    }
+
+    .selector{
+        display: none;
+    }
+    
+
+   input{
+    display: none;
+   }
+
+    .fa-magnifying-glass{
+        color: #003035;
+        background-color: transparent;
+       font-size: 22px;
+        cursor: pointer;
+    
+    }
+
+    .btn-light{
+        display: none;
+    } 
+
+     .content-prmy {
+        display:none;
+    }
+
+    .content-secondry{
+        display:none;
+
+    }
+
+    .play-store-icon img{
+        display: none;
+
+    }
+
+    
+}
+
+/* Navbar styling started */
+
+.nav-bar ul li{
+    padding: 7px;
+    text-align: center;
+    
+}
+
+nav .nav-bar ul {
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   
+  }
+
+  
+  
+
+
+/* Navbar styling ended */
+
+
+
+
+/* Mobile styling started */
+
+
+.fs-7{
+    font-size: 14px;
+}
+
+.fs-8{
+    font-size: 13px;
+}
+
+.margin-l{
+    margin-left:35px ;
+}
+
+
+/* Mobile styling ended */
+
+
+.bg-grey{
+    background-color: #f7f9f9;
+}
+
+.icon-width{
+    width: 7rem;
+}
+.m-L-3{
+    margin-left: 10rem;
+}
+.w-100{
+    max-width: 100%;
+    height: auto
+    ;
+}
+.bg-footer{
+    background-color: #eaeeef;
+    
+}
+.fa-brands{
+    padding: 5px;
+}
+
+.play-store-icon{
+    width: 4rem;
+    
+}
+.copyright {
+    background-color: #003035;
+    text-align: center;
+    color: #ffff;
+    padding: 10px 0px;
+    font: 1em sans-serif;
+    width: 100%;
+}
+
+
